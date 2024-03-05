@@ -6,14 +6,21 @@
   font-family: titr;
   src: url(fonts/B\ Titr\ Bold_0.ttf);
 }
+*{
+  transition: 0.5s;
+}
 body{
   font-family: AdAr;
 }
-a{
+.menu-l{
   text-decoration: none;
   color: #ffe6b4;
   font-size: x-large;
   font-weight: 600;
+}
+.menu-l:hover{
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
 .header{
   background-color: #0d0870;
@@ -55,9 +62,18 @@ a{
   margin-right: 80px;
   top: -80px;
 }
+.lg2-line{
+  position: absolute;
+  right: 0;
+  bottom: -310px;
+  margin-right: 100px;
+}
 .emza{
   float: left;
   margin-top: 40px;
+}
+section{
+  display: block;
 }
 .tag{
   background-color: #07023B;
@@ -71,7 +87,73 @@ a{
   display: block;
 }
 .yaayohal{
-  float: left;
   width: 500px;
   margin-left: 40px;
+}
+.webinar{
+  position: relative;
+  width: 80%;
+  background-color: #F6F5FF;
+  border-radius: 10px;
+  border: 1px solid #0D0870;
+}
+.webinar-ti{
+  position: absolute;
+  display: inline-block;
+  background: url(img/Group\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 55px;
+  color: #ffe6b4;
+  font-family: titr;
+  font-size: 25px;
+  padding-right: 50px;
+  padding-top: 9px;
+  top: -28.5px;
+}
+.lorem2{
+  width: 100%;
+  font-size: 20px;
+  color: #3D3D3D;
+}
+.web-time{
+  color: #07023B;
+  font-size: 25px;
+}
+.tech-obx{
+  overflow-y: scroll;
+  max-height: 300px;
+}
+.tech-bx{
+  width: 80%;
+  align-items: center;
+  font-size: 25px;
+}
+.web-shrct{
+  border: 1px solid #07023B;
+  color: #07023B;
+  text-decoration: none;
+  font-size: 20px;
+}
+.web-shrct:hover{
+  background-color: #07023B;
+  color: #fff;
+}
+.tech-img{
+  width: 63px;
+  height: 63px;
+}
+.quran{
+  width: 504px;
+  position: absolute;
+  left: -250px;
+  top: 0;
+  margin-top: 270px;
+}
+.line{
+  position: absolute;
+  width: 250px;
+  right: -70px;
+  bottom: -120px;
 }
