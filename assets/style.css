@@ -123,12 +123,15 @@ section{
 }
 .tech-obx{
   overflow-y: scroll;
+  overflow-x: hidden;
   max-height: 300px;
 }
 .tech-bx{
   width: 80%;
   align-items: center;
   font-size: 25px;
+  float: right;
+  margin-right: 1px;
 }
 .web-shrct{
   border: 1px solid #07023B;
@@ -147,13 +150,117 @@ section{
 .quran{
   width: 504px;
   position: absolute;
-  left: -250px;
+  left: -200px;
   top: 0;
-  margin-top: 270px;
+  margin-top: 230px;
 }
 .line{
   position: absolute;
   width: 250px;
   right: -70px;
   bottom: -120px;
+}
+.akhlagh{
+  position: relative;
+  background-color: #F6F5FF;
+  border-radius: 10px;
+  border: 1px solid #0D0870;
+  margin-top: 150px;
+}
+.akhlagh-ti{
+  position: absolute;
+  display: inline-block;
+  background: url(img/Group\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 55px;
+  color: #ffe6b4;
+  font-family: titr;
+  font-size: 23px;
+  padding-right: 35px;
+  padding-top: 11px;
+  top: -28.5px;
+}
+.vi-img-bx{
+  display: inline-block;
+}
+.vi-info{
+  display: inline-block;
+}
+.vi-info h5{
+  color: #07023B;
+  font-size: 25px;
+}
+.vi-info h6{
+  color: #07023B;
+  font-size: 20px;
+}
+.lorem3{
+ font-size: 20px;
+}
+.dl{
+  background-color: #07023B;
+  text-decoration: none;
+}
+.vi-time{
+  color: #07023B;
+}
+.calendar-bx{
+  position: relative;
+}
+.calendar{
+  position: absolute;
+  background: url(img/Group30.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 215.2px;
+  height: 342.66px;
+  text-align: center;
+  top: 0;
+  right: 0;
+  margin-top: 70px;
+  margin-right: 182px;
+}
+.calendar h1{
+  font-size: 100px;
+}
+.calendar span{
+  font-size: 30px;
+}
+.event{
+  background-color: #0D0870;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 450px;
+  margin-right: 175px;
+  color: #FFE6B4;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background: #ffffff00;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #07023B;
+  border-radius: 20px;
 }
