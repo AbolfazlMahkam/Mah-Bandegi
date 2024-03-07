@@ -11,6 +11,7 @@
 }
 body{
   font-family: AdAr;
+  overflow-x: hidden;
 }
 .menu-l{
   text-decoration: none;
@@ -100,17 +101,17 @@ section{
 .webinar-ti{
   position: absolute;
   display: inline-block;
-  background: url(img/Group\ 2.png);
+  background: url(img/Group2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 150px;
-  height: 55px;
+  height: 58px;
   color: #ffe6b4;
   font-family: titr;
   font-size: 25px;
-  padding-right: 50px;
-  padding-top: 9px;
-  top: -28.5px;
+  padding-right: 41px;
+  padding-top: 12px;
+  top: -29px;
 }
 .lorem2{
   width: 100%;
@@ -170,17 +171,17 @@ section{
 .akhlagh-ti{
   position: absolute;
   display: inline-block;
-  background: url(img/Group\ 2.png);
+  background: url(img/Group2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 150px;
-  height: 55px;
+  height: 58px;
   color: #ffe6b4;
   font-family: titr;
   font-size: 23px;
-  padding-right: 35px;
-  padding-top: 11px;
-  top: -28.5px;
+  padding-right: 26px;
+  padding-top: 12px;
+  top: -29px;
 }
 .vi-img-bx{
   display: inline-block;
@@ -237,6 +238,42 @@ section{
   margin-right: 175px;
   color: #FFE6B4;
   font-size: 25px;
+}
+.events{
+  position: relative;
+  background-color: #F6F5FF;
+  border-radius: 10px;
+  border: 1px solid #0D0870;
+  margin-top: 60px;
+}
+.events-ti{
+  position: absolute;
+  display: inline-block;
+  background: url(img/Group2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 58px;
+  color: #ffe6b4;
+  font-family: titr;
+  font-size: 23px;
+  padding-right: 32.5px;
+  padding-top: 12px;
+  top: -29px;
+}
+.events-img{
+  width: 100%;
+}
+.events-info h5{
+  color: #07023B;
+  font-size: 25px;
+}
+.events-info h6{
+  color: #07023B;
+  font-size: 20px;
+}
+.ghalb{
+  text-align: center;
 }
 
 
